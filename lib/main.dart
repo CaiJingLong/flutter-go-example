@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'image_page.dart';
+import 'input_page.dart';
 import 'listview_page.dart';
+import 'plugin_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -96,6 +98,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             buildTargetWidget("listview", ListViewPage()),
             buildTargetWidget("image", ImagePage()),
+            buildTargetWidget("input", InputPage()),
+            buildTargetWidget("plugin", PluginPage()),
           ],
         ),
       ),
